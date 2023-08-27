@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+body{
+    background-color: #f2eded;
+}
+.header{
+    background-color: #662a9e;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 5rem;
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.leftHeader button{
+    color: #662a9e;
+    background-color: white;
+    padding: 0.4rem 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 90.7vh;
+    width: 13vw;
+    box-shadow: 0px 0px 11px 3px #707678;
+}
+main{
+    display: flex;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1616a3;
+    font-family: serif;
+    font-weight: 600;
+}
+.profileContent{
+    margin-top: 2rem;
+}
+.profileContent a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671)
+}
+#patient{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: #5353c8;
+    color: white;
+    font-family: serif;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+#logout{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding-left: 1rem;
+}
+.rightContent1{
+    background-color: white;
+    width: 88vw;
+    margin-left: 0.1rem;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    color: #51217e;
+    font-weight: 600;
+    box-shadow: 4px 3px 11px 3px #70767836;
+}

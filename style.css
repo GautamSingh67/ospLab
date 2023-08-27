@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+/* heder1 */
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 102);
+    color: white;
+}
+
+.leftSectionHeader1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.leftSectionHeader1 li {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+}
+
+.hrHeader1 {
+    height: 2.5rem;
+    background-color: white;
+    opacity: 0.2;
+}
+
+/* end of header1 */
+
+
+/* header2 */
+.header2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12%;
+    background-color: rgb(255 255 255);
+    padding: 0.6rem 0rem;
+}
+
+.header2 div {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(58, 58, 154);
+    font-family: sans-serif;
+}
+
+.header2LeftSection {
+    margin-left: 14%;
+}
+
+.header2LeftSection li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.header2rightSection li {
+    cursor: pointer;
+}
+
+.header2rightSection li a {
+    text-decoration: none;
+    color: rgb(16 16 46);
+    font-size: 1rem;
+}
+
+#home {
+    background-color: rgb(24, 24, 102);
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+/* end of header2 */
+
+
+/* main */
+
+/* herobanner */
+.heroBanner img {
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+}
+
+.subBanner {
+    background-color: rgb(16 16 46);
+    width: 98.9vw;
+    height: 100vh;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heroFirstContent {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.heroSecondContent {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+.heroThirdContent {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+}
+
+#heroLink {
+    margin-top: 4%;
+}
+
+#heroLink span {
+    margin-right: 1.3rem;
+}
+
+#heroLink a {
+    text-decoration: none;
+}
+
+.subBanner span {
+    padding: 1rem 4rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    z-index: 1000;
+    box-shadow: inset 0px 0px 4px 2px #2a3ba4;
+    background-image: linear-gradient(to right, rgb(18 18 247), rgb(13 13 63));
+}
+
+#patientDashbord {
+    position: absolute;
+    top: 65.2%;
+    left: 30%;
+    border-radius: 0.9rem;
+    cursor: pointer;
+}
+
+/* end of herobanner */
+
+/* content */
+.content1 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content1Heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(24, 24, 102);
+}
+
+.subContent1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 60ch;
+    gap: 0.4rem;
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+    margin-top: 4rem;
+}
+
+.unique1 {
+    margin-top: 2.5rem;
+}
+
+/* end of content */
+
+/* services */
+.servicesSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #f2f2f2d9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 110ch;
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 1.05rem;
+    gap: 3rem;
+}
+
+.services h1 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: rgb(24, 24, 102);
+    font-family: sans-serif;
+}
+
+.services hr {
+    width: 130%;
+}
+
+.subServices h2 {
+    margin-top: 2.7rem;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    color: rgb(24, 24, 102);
+    text-align: center;
+    margin-bottom: 2.7rem;
+}
+
+.subServicesDetail {
+    display: flex;
+    gap: 2rem;
+}
+
+.leftDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subServicesDetail1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftDetail span {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: rgb(24, 24, 102);
+    font-weight: 600;
+}
+
+.leftDetail p {
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+    max-width: 45ch;
+    text-align: end;
+    line-height: 1.5rem;
+}
+
+.rightDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightDetail span {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: rgb(24, 24, 102);
+    font-weight: 600;
+}
+
+.rightDetail p {
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+    max-width: 45ch;
+    line-height: 1.5rem;
+}
+
+#firstdetail {
+    max-width: 35ch;
+}
+
+.rightDetail img {
+    border-radius: 50%;
+}
+
+.leftDetail img {
+    border-radius: 50%;
+}
+
+.subServicesDetail2 {
+    box-shadow: 0px 0px 11px 3px #707678;
+}
+
+#card1 {
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px 3px #c0c6c8;
+}
+
+/* end of services */
+
+
+/* successStory */
+
+.successStory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 3rem;
+    padding: 0% 19%;
+}
+.successStory h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: rgb(24, 24, 102);
+}
+.storyContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem
+}
+.storyleft{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+.storyleft p{
+    line-height: 1.4rem;
+    font-size: 1.04rem;
+    margin-bottom: 2rem;
+}
+.storyleft span{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(24, 24, 102);
+}
+.storyComment{
+    color: #00000096;
+}
+
+/* download app */
+.downloadApp{
+    color: white;
+    background-image: linear-gradient(to right, rgb(85 85 243), rgb(55 55 102));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.downloadApp h1{
+    font-size: 2.6rem;
+    font-family: sans-serif;
+}
+.downloadApp p{
+    font-size: 1.05rem;
+    font-family: sans;
+    max-width: 110ch;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.downloadApp button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: #4c4cc8;
+    padding: 0.2rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin-right: 2rem;
+}
+#androidButton{
+    background-color: #4d4daf;
+}
+/* end of download app*/
+/* end of main */
+
+/* footer */
+.footer{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 3% 1%;
+    gap: 10%;
+}
+.footerContent h3{
+    
+    font-family: sans-serif;
+    font-size: 1rem
+}
+.footerContent1{
+    max-width: 61ch;
+    font-family: serif;
+    margin-top: 0.6rem;
+    color: #000000ad;
+    line-height: 1.4rem;
+}
+.footerContent2{
+    margin-bottom: 2.5rem;
+    padding-top: 0.5rem;
+}
+#iconFooter{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footerContent3{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+.footerContent3 li a{
+    text-decoration: none;
+    color: rgb(24, 24, 102);
+}
+.footer hr{
+    width: 69%;
+}
+.endFooter{
+    padding: 1rem 0rem;
+    color: #000000b8;
+    font-family: serif;
+    font-size: 0.8rem;
+}
+/* end of footer */
+
+/* other */
+.iphone{
+    text-decoration: none;
+    color: white;
+}
+#pamentDash{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(24, 24, 102);
+}
